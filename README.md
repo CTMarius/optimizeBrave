@@ -297,7 +297,7 @@ chmod +x optimize_brave.sh
 - **No root/sudo access needed** for user-level optimizations
 - Some system-wide optimizations may require sudo
 
-## 🔗 Related Configuration
+## Related Configuration
 
 The script creates or modifies:
 - Brave configuration files in `~/.config/BraveSoftware/Brave-Browser/`
