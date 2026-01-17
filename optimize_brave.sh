@@ -400,9 +400,43 @@ telemetry_settings = {
         "leo": {
             "enabled": False
         },
+        # New Tab Page Settings
+        "new_tab_page": {
+            "custom_background_enabled": False,
+            "show_background_image": False,
+            "show_sponsored_images_background": False,
+            "show_clock": False,
+            "show_stats": False,
+            "show_news": False,
+            "show_web3_domains": False,
+            "show_gemini": False
+        },
+        # Usage Statistics (disable sending data to Brave)
+        "stats": {
+            "reporting_enabled": False
+        },
+        "p3a": {
+            "enabled": False
+        },
+        "brave_news_enabled": False,
+        "brave_news_p3a_enabled": False,
+        # Memory & Performance Settings
+        "memory_savings_mode": {
+            "enabled": True,
+            "aggressive": True
+        },
+        "performance_tab_discarding": {
+            "enabled": True
+        },
+        # Tab Groups
+        "tab_groups": {
+            "enabled": False
+        },
         # Disable Crypto & Wallet features
         "wallet": {
-            "enabled": False
+            "enabled": False,
+            "show_wallet_button": False,
+            "show_wallet_icon": False
         },
         "rewards": {
             "enabled": False,
@@ -414,10 +448,6 @@ telemetry_settings = {
         },
         "today": {
             "should_show": False
-        },
-        # Additional Brave-specific privacy
-        "stats": {
-            "reporting_enabled": False
         },
         # Brave Shield Settings (enforce aggressive mode protections)
         "shields": {
@@ -690,10 +720,16 @@ echo -e "${GREEN}========================================${NC}\n"
 
 echo -e "${GREEN}Applied settings:${NC}"
 echo "  ✓ Disabled all telemetry and metrics"
+echo "  ✓ Disabled usage data reporting to Brave"
+echo "  ✓ Disabled P3A analytics"
 echo "  ✓ Disabled crash reporting"
 echo "  ✓ Disabled background networking"
 echo "  ✓ Disabled automatic updates (user level)"
 echo "  ✓ Disabled AI features (Leo, AI Chat)"
+echo "  ✓ Configured new tab page to blank/minimal"
+echo "  ✓ Enabled memory savings mode (balanced)"
+echo "  ✓ Disabled tab groups"
+echo "  ✓ Removed wallet icon and features"
 echo "  ✓ Disabled crypto features (Wallet, Rewards, VPN)"
 echo "  ✓ Disabled geolocation services"
 echo "  ✓ Configured WebRTC privacy protection"

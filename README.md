@@ -22,6 +22,7 @@ All changes are applied to your Brave configuration files while maintaining a co
 
 ### Privacy & Telemetry Disabling
 - Disable all metrics and usage reporting
+- Disable usage data reporting to Brave (P3A analytics)
 - Disable crash reporter and breakpad telemetry
 - Disable field trial configuration
 - Disable domain reliability reporting
@@ -37,11 +38,13 @@ All changes are applied to your Brave configuration files while maintaining a co
 - Disable hyperlink auditing (click tracking)
 - Disable do-not-track (enable explicit DNT header instead)
 - Disable default browser check prompts
+- Disable Brave News and Brave News P3A reporting
 
 ### AI & Cryptocurrency Features Removal
 - Disable Brave Leo AI Assistant
 - Disable AI Chat history and autocomplete
 - Disable Brave Wallet (crypto features)
+- Remove wallet icon and button display
 - Disable Brave Rewards program
 - Disable inline tip buttons
 - Disable Brave VPN promotion
@@ -106,7 +109,8 @@ All changes are applied to your Brave configuration files while maintaining a co
 - Enable VAAPI video decoder
 - Enable Canvas OOP rasterization
 - Enable parallel downloading
-- Enable Memory Savings Mode
+- Enable Memory Savings Mode (balanced mode)
+- Enable tab discarding for memory optimization
 - Enable Back-Forward Cache
 - Enable lazy frame loading
 - Enable lazy image loading
@@ -120,6 +124,8 @@ All changes are applied to your Brave configuration files while maintaining a co
 - Enable Brave Shields in aggressive mode
 - Set Brave Shields as default protection level
 - Enable extended ad/tracker blocking
+- Configure new tab page to minimal/blank (disable backgrounds, sponsored images, news, stats, clock, web3 domains)
+- Disable tab groups functionality
 - Enable Speedreader (disabled by default, can enable)
 - Decentralized DNS disabled (optional, can enable)
 
@@ -227,10 +233,10 @@ cp "$BACKUP_DIR/brave-flags.conf_backup_$TIMESTAMP" "$HOME/.config/BraveSoftware
 Lists all available backups with dates and file sizes.
 
 ### Important Notes:
-- ✓ **Always close Brave** before restoring to avoid conflicts
-- ✓ **Backups are timestamped** so you can keep multiple versions
-- ✓ **Default location:** `~/.config/BraveSoftware/Brave-Browser/backups/`
-- ✓ **Full restore** includes: Preferences, Local State, and launch flags
+- Always close Brave before restoring to avoid conflicts
+- Backups are timestamped so you can keep multiple versions
+- Default location: `~/.config/BraveSoftware/Brave-Browser/backups/`
+- Full restore includes: Preferences, Local State, and launch flags
 
 ---
 
