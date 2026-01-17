@@ -101,40 +101,40 @@ All changes are applied to your Brave configuration files while maintaining a co
 - Enable zero-copy rendering
 - Enable smooth scrolling
 - Enable QUIC protocol
-- ✓ Enable accelerated video decode
-- ✓ Ignore GPU blocklist (use all available acceleration)
-- ✓ Enable VAAPI video decoder
-- ✓ Enable Canvas OOP rasterization
-- ✓ Enable parallel downloading
-- ✓ Enable Memory Savings Mode
-- ✓ Enable Back-Forward Cache
-- ✓ Enable lazy frame loading
-- ✓ Enable lazy image loading
-- ✓ Enable Prerender2 for faster navigation
-- ✓ Enable iframe throttling
-- ✓ Restrict WebSocket connection pooling
-- ✓ Enable JXL image format support
-- ✓ Enable fenced frames with Shadow DOM
+- Enable accelerated video decode
+- Ignore GPU blocklist (use all available acceleration)
+- Enable VAAPI video decoder
+- Enable Canvas OOP rasterization
+- Enable parallel downloading
+- Enable Memory Savings Mode
+- Enable Back-Forward Cache
+- Enable lazy frame loading
+- Enable lazy image loading
+- Enable Prerender2 for faster navigation
+- Enable iframe throttling
+- Restrict WebSocket connection pooling
+- Enable JXL image format support
+- Enable fenced frames with Shadow DOM
 
 ### Brave-Specific Hardening
-- ✓ Enable Brave Shields in aggressive mode
-- ✓ Set Brave Shields as default protection level
-- ✓ Enable extended ad/tracker blocking
-- ✓ Enable Speedreader (disabled by default, can enable)
-- ✓ Decentralized DNS disabled (optional, can enable)
+- Enable Brave Shields in aggressive mode
+- Set Brave Shields as default protection level
+- Enable extended ad/tracker blocking
+- Enable Speedreader (disabled by default, can enable)
+- Decentralized DNS disabled (optional, can enable)
 
 ### Cache & Storage Management
-- ✓ Minimize disk cache size
-- ✓ Clear session restore (no automatic session recovery)
-- ✓ Disable WebRTC multiple routes
-- ✓ Disable encrypted media extensions
+- Minimize disk cache size
+- Clear session restore (no automatic session recovery)
+- Disable WebRTC multiple routes
+- Disable encrypted media extensions
 
 ### Additional Features
-- ✓ Create launch flags configuration file for persistent settings
-- ✓ Create optimized desktop launcher entry
-- ✓ Remove crash report directories
-- ✓ Disable system-level Brave background services
-- ✓ Automatic backup before any changes are applied
+- Create launch flags configuration file for persistent settings
+- Create optimized desktop launcher entry
+- Remove crash report directories
+- Disable system-level Brave background services
+- Automatic backup before any changes are applied
 
 ---
 
