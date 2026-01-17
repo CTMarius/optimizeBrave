@@ -307,7 +307,9 @@ The script creates or modifies:
 
 ## License
 
-MIT License - Feel free to use and modify this script for your needs.
+Feel free to clone, copy, modify and distribute the script.
+
+Use it at your own risk.
 
 ---
 
