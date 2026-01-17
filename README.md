@@ -39,68 +39,68 @@ All changes are applied to your Brave configuration files while maintaining a co
 - Disable default browser check prompts
 
 ### AI & Cryptocurrency Features Removal
-- ✓ Disable Brave Leo AI Assistant
-- ✓ Disable AI Chat history and autocomplete
-- ✓ Disable Brave Wallet (crypto features)
-- ✓ Disable Brave Rewards program
-- ✓ Disable inline tip buttons
-- ✓ Disable Brave VPN promotion
-- ✓ Disable Brave News feed (Today tab)
-- ✓ Remove stats reporting from Brave-specific features
+- Disable Brave Leo AI Assistant
+- Disable AI Chat history and autocomplete
+- Disable Brave Wallet (crypto features)
+- Disable Brave Rewards program
+- Disable inline tip buttons
+- Disable Brave VPN promotion
+- Disable Brave News feed (Today tab)
+- Remove stats reporting from Brave-specific features
 
 ### Network & Connection Privacy
-- ✓ Disable WebRTC IP leaks (non-proxied UDP disabled)
-- ✓ Enforce WebRTC IP permission checks
-- ✓ Disable async DNS (use synchronous for better privacy)
-- ✓ Disable network prediction
-- ✓ Block third-party cookies
-- ✓ Enable partitioned cookies (site-specific cookies)
-- ✓ Disable media router service
+- Disable WebRTC IP leaks (non-proxied UDP disabled)
+- Enforce WebRTC IP permission checks
+- Disable async DNS (use synchronous for better privacy)
+- Disable network prediction
+- Block third-party cookies
+- Enable partitioned cookies (site-specific cookies)
+- Disable media router service
 
 ### Data Collection & Permissions
-- ✓ Disable geolocation services (block by default)
-- ✓ Block payment handler requests
-- ✓ Block notification permissions
-- ✓ Block microphone access by default
-- ✓ Block camera access by default
-- ✓ Block MIDI/SYSEX access
-- ✓ Block USB guard access
-- ✓ Block Bluetooth access
-- ✓ Block Bluetooth scanning
+- Disable geolocation services (block by default)
+- Block payment handler requests
+- Block notification permissions
+- Block microphone access by default
+- Block camera access by default
+- Block MIDI/SYSEX access
+- Block USB guard access
+- Block Bluetooth access
+- Block Bluetooth scanning
 
 ### Autofill & Form Security
-- ✓ Disable autofill for forms
-- ✓ Disable credit card autofill
-- ✓ Disable address profile autofill
-- ✓ Disable password manager service
-- ✓ Disable credential storage
+- Disable autofill for forms
+- Disable credit card autofill
+- Disable address profile autofill
+- Disable password manager service
+- Disable credential storage
 
 ### Security Hardening
-- ✓ Enable HTTPS-only mode
-- ✓ Enable mixed content blocking with auto-upgrade
-- ✓ Enable site isolation (process per site)
-- ✓ Enable origin isolation
-- ✓ Enable SafeBrowsing (basic, non-enhanced for privacy)
-- ✓ Disable SafeBrowsing enhanced mode
-- ✓ Disable SafeBrowsing reporting
-- ✓ Enable certificate transparency checks
+- Enable HTTPS-only mode
+- Enable mixed content blocking with auto-upgrade
+- Enable site isolation (process per site)
+- Enable origin isolation
+- Enable SafeBrowsing (basic, non-enhanced for privacy)
+- Disable SafeBrowsing enhanced mode
+- Disable SafeBrowsing reporting
+- Enable certificate transparency checks
 
 ### Fingerprinting & Anti-Tracking
-- ✓ Reduce user agent fingerprinting
-- ✓ Reduce user agent minor version exposure
-- ✓ Enable ephemeral storage (per-site cookie jars)
-- ✓ Enable debouncing (URL tracking parameter removal)
-- ✓ Enable CNAME uncloaking
-- ✓ Enable dark mode fingerprinting protection
-- ✓ Enable cosmetic filtering for ads
-- ✓ Enable cosmetic filtering in child frames
-- ✓ Enable cookie list default protection
+- Reduce user agent fingerprinting
+- Reduce user agent minor version exposure
+- Enable ephemeral storage (per-site cookie jars)
+- Enable debouncing (URL tracking parameter removal)
+- Enable CNAME uncloaking
+- Enable dark mode fingerprinting protection
+- Enable cosmetic filtering for ads
+- Enable cosmetic filtering in child frames
+- Enable cookie list default protection
 
 ### Performance Optimizations
-- ✓ Enable GPU rasterization
-- ✓ Enable zero-copy rendering
-- ✓ Enable smooth scrolling
-- ✓ Enable QUIC protocol
+- Enable GPU rasterization
+- Enable zero-copy rendering
+- Enable smooth scrolling
+- Enable QUIC protocol
 - ✓ Enable accelerated video decode
 - ✓ Ignore GPU blocklist (use all available acceleration)
 - ✓ Enable VAAPI video decoder
