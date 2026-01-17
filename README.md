@@ -307,11 +307,6 @@ The script creates or modifies:
 
 ## License
 
-Feel free to clone, copy, modify and distribute the script.
+Feel free to clone, copy, modify and distribute the script as you wish.
 
-Use it at your own risk.
-
----
-
-**Last Updated:** January 2026
-**Compatible With:** Brave Browser (all recent versions)
+## Use it at your own risk.
